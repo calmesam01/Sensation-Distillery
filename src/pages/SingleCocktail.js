@@ -68,7 +68,7 @@ export default function SingleCocktail() {
             <p>
             Ingredients: {" "}
               {ingredients.map((item, index) => {
-                return item ? <span key={index}>{item}</span> : null;
+                return item ? <span key={index}>{item},</span> : null;
               })}
             </p>
           </div>
